@@ -1,0 +1,71 @@
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#landSearch .card {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#future .container {
+    padding: 0;
+}
+#future .row {
+    margin: 0;
+}
+
+#search {
+    background: transparent;
+    border: 0 solid black;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+    margin-top: 5px;
+    color: white;
+}
+#search:focus {
+     border-bottom: 1px solid #17a2b8;
+     outline: none;
+     box-shadow: none;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.hourly {
+    overflow: auto;
+    height: 120%;
+}
+
+.hours {
+    height: inherit;
+    width: 80px;
+    min-width: 80px;
+}
+.hours .card-body {
+    width: 80px;
+}
+
+.days {
+    height: auto;
+}
+
+.days canvas {
+    height: inherit;
+    width: auto;
+}
+
+.days div.col-5.col-sm-4.col-md-7.col-lg-6 {
+    padding:0;
+}
