@@ -1,0 +1,8 @@
+.gitignore
+node_modules
+package-lock.json
+package.json
+.idea
+src
+readme.md
+webpack.config.js
